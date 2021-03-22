@@ -1,12 +1,13 @@
-
 <template>
-  <v-app>
-  </v-app>
+
 </template>
 
 <script>
 export default {
-    
+    id: 'App',
+    mounted() {
+
+    }
 }
 </script>
 
