@@ -40,7 +40,7 @@ window.addEventListener('load', (event) => {
                     ctx.beginPath();
                     ctx.moveTo(orb.x, orb.y);
                     ctx.lineTo(other.x, other.y);
-                    ctx.strokeStyle = '#fff';
+                    ctx.strokeStyle = 'rgba(255, 255, 255, '+ (1 - (dist / 100).toFixed(2)) +')';
                     ctx.stroke();
                     ctx.closePath();
                 }
